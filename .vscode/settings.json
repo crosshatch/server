@@ -1,0 +1,36 @@
+{
+  "[dockerfile]": {
+    "editor.defaultFormatter": "dprint.dprint"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "dprint.dprint"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "dprint.dprint"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "dprint.dprint"
+  },
+  "[sql]": {
+    "editor.defaultFormatter": "dprint.dprint"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dprint.dprint"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "dprint.dprint"
+  },
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "sqltools.connections": [
+    {
+      "server": "localhost",
+      "port": 54321,
+      "driver": "PostgreSQL",
+      "name": "crosshatch",
+      "database": "electric",
+      "username": "postgres",
+      "password": "password"
+    }
+  ]
+}
