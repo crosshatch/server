@@ -1,5 +1,5 @@
 -- migrate:up
-CREATE EXTENSION if NOT EXISTS "uuid-ossp";
+CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 
 CREATE TYPE agent_type AS ENUM('user', 'avatar', 'ai');
 
@@ -12,23 +12,28 @@ CREATE TABLE IF NOT EXISTS agents (
 
 CREATE TABLE IF NOT EXISTS realms (
   realm_id UUID NOT NULL DEFAULT uuid_generate_v4 (),
-  authority_id UUID NOT NULL,
   title TEXT NOT NULL,
-  cover TEXT NOT NULL,
-  CONSTRAINT realms_pk PRIMARY KEY (realm_id),
-  FOREIGN key (authority_id) REFERENCES agents (agent_id)
+  description TEXT NOT NULL,
+  CONSTRAINT realms_pk PRIMARY KEY (realm_id)
+);
+
+CREATE TABLE IF NOT EXISTS illustrations (
+  illustration_id UUID NOT NULL DEFAULT uuid_generate_v4 (),
+  uri TEXT NOT NULL,
+  owner_id UUID NOT NULL,
+  realm_id UUID NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS realm_agents (
   realm_id UUID NOT NULL,
   agent_id UUID NOT NULL,
   PRIMARY KEY (realm_id, agent_id),
-  FOREIGN key (realm_id) REFERENCES realms (realm_id) ON DELETE cascade,
-  FOREIGN key (agent_id) REFERENCES agents (agent_id) ON DELETE cascade
+  FOREIGN KEY (realm_id) REFERENCES realms (realm_id) ON DELETE CASCADE,
+  FOREIGN KEY (agent_id) REFERENCES agents (agent_id) ON DELETE CASCADE
 );
 
 -- Non-agents / forces? Natural disasters, gravity, pandemic, misc.
-CREATE TABLE IF NOT EXISTS events (
+CREATE TABLE IF NOT EXISTS EVENTS (
   event_id UUID NOT NULL DEFAULT uuid_generate_v4 ()
 );
 

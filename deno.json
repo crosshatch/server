@@ -1,39 +1,42 @@
 {
-  "nodeModulesDir": "auto",
-  "exclude": ["client"],
   "tasks": {
     "codegen": "deno run -A npm:kysely-codegen --dialect postgres --out-file schema.ts",
     "migrate": "dbmate migrate && deno task codegen",
     "seed": "deno run -A ./tasks/seed.ts",
-    "serve": "deno run -A --watch server/main.ts"
+    "dev": "deno run -A --watch server/main.ts"
+  },
+  "exclude": ["client"],
+  "nodeModulesDir": "auto",
+  "unstable": ["fmt-sql"],
+  "compilerOptions": {
+    "lib": ["deno.window"],
+    "noFallthroughCasesInSwitch": true,
+    "noPropertyAccessFromIndexSignature": false,
+    "noUncheckedIndexedAccess": true
   },
   "imports": {
-    "@aws-sdk/client-s3": "npm:@aws-sdk/client-s3@^3.686.0",
-    "@aws-sdk/client-sesv2": "npm:@aws-sdk/client-sesv2@^3.686.0",
+    "@aws-sdk/client-s3": "npm:@aws-sdk/client-s3@^3.698.0",
+    "@aws-sdk/client-sesv2": "npm:@aws-sdk/client-sesv2@^3.696.0",
     "@byzanteam/kysely-deno-postgres-dialect": "jsr:@byzanteam/kysely-deno-postgres-dialect@^0.27.8",
     "@faker-js/faker": "npm:@faker-js/faker@^9.2.0",
     "@std/assert": "jsr:@std/assert@^1.0.7",
     "@std/collections": "jsr:@std/collections@^1.0.9",
     "@std/dotenv": "jsr:@std/dotenv@^0.225.2",
     "@std/encoding": "jsr:@std/encoding@^1.0.5",
-    "@std/fs": "jsr:@std/fs@^1.0.5",
-    "@std/http": "jsr:@std/http@^1.0.9",
+    "@std/fs": "jsr:@std/fs@^1.0.6",
+    "@std/http": "jsr:@std/http@^1.0.11",
     "@std/path": "jsr:@std/path@^1.0.8",
     "@std/uuid": "jsr:@std/uuid@^1.0.4",
+    "dedent": "npm:dedent@^1.5.3",
     "kysely": "npm:kysely@^0.27.4",
     "models": "./models/mod.ts",
-    "openai": "npm:openai@^4.71.1",
-    "postgres": "npm:postgres@3.4.4",
-    "sql-formatter": "npm:sql-formatter@^15.4.5",
+    "openai": "npm:openai@^4.73.0",
+    "pg": "npm:pg@^8.13.1",
+    "postgres": "npm:postgres@^3.4.5",
+    "sql-formatter": "npm:sql-formatter@^15.4.6",
     "structured_outputs": "./structured_outputs/mod.ts",
     "schema": "./schema.ts",
     "api": "./api/mod.ts"
-  },
-  "compilerOptions": {
-    "lib": ["deno.window"],
-    "noFallthroughCasesInSwitch": true,
-    "noPropertyAccessFromIndexSignature": false,
-    "noUncheckedIndexedAccess": true
   },
   "lint": {
     "rules": {
@@ -47,5 +50,10 @@
         "no-namespace"
       ]
     }
+  },
+  "fmt": {
+    "lineWidth": 100,
+    "proseWrap": "always",
+    "semiColons": false
   }
 }

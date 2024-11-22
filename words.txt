@@ -2,7 +2,10 @@ byzanteam
 codegen
 dbmate
 electricsql
+insertable
 kysely
+ossp
 sesv2
+sslmode
 tmpfs
 vtypes

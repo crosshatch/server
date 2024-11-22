@@ -13,8 +13,8 @@ await Deno.serve({
 
 async function handler(req: Request) {
   const method = { GET, POST }[req.method]
-  return (await method?.(req))
-    ?? (() => {
+  return (await method?.(req)) ??
+    (() => {
       const status = STATUS_CODE["NotFound"]
       return new Response(STATUS_TEXT[status], { status })
     })()

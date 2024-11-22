@@ -1,9 +1,0 @@
-{
-  "dataTypeCase": "upper",
-  "denseOperators": true,
-  "functionCase": "lower",
-  "identifierCase": "lower",
-  "insertSpaces": true,
-  "keywordCase": "upper",
-  "language": "postgresql"
-}
