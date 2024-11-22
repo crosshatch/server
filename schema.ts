@@ -3,4 +3,58 @@
  * Please do not edit it manually.
  */
 
-export interface DB {}
+import type { ColumnType } from "kysely";
+
+export type AgentType = "ai" | "avatar" | "user";
+
+export type Generated<T> = T extends ColumnType<infer S, infer I, infer U>
+  ? ColumnType<S, I | undefined, U>
+  : ColumnType<T, T | undefined, T>;
+
+export interface Agents {
+  agent_id: Generated<string>;
+  agent_type: AgentType;
+  name: string;
+}
+
+export interface Contexts {
+  context_id: Generated<string>;
+  name: string;
+  resource: string;
+}
+
+export interface Events {
+  event_id: Generated<string>;
+}
+
+export interface Illustrations {
+  illustration_id: Generated<string>;
+  owner_id: string;
+  realm_id: string;
+  uri: string;
+}
+
+export interface RealmAgents {
+  agent_id: string;
+  realm_id: string;
+}
+
+export interface Realms {
+  description: string;
+  realm_id: Generated<string>;
+  title: string;
+}
+
+export interface SchemaMigrations {
+  version: string;
+}
+
+export interface DB {
+  agents: Agents;
+  contexts: Contexts;
+  events: Events;
+  illustrations: Illustrations;
+  realm_agents: RealmAgents;
+  realms: Realms;
+  schema_migrations: SchemaMigrations;
+}
