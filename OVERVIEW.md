@@ -55,7 +55,7 @@ Other key metrics:
 
 - There are 1.8 billion children globally under 15 years of age.[^2]
 - As of 2022, there were 23.2 million families in the US with children under 12 years of age.[^3]
-- Parents spend an average of $586 per child annually on educational tools.[^4]
+- Parents in the US spend an average of $586 per child annually on educational tools.[^4]
 
 Additional market data suggests that parents increasingly seek screen time with purpose, preferring
 apps that provide educational value and foster creativity.[^5] Crosshatch addresses this growing
@@ -93,8 +93,8 @@ revenue.
    interconnected narratives.
 2. Enable connections between users' story worlds. Focus on fostering collaboration.
 3. Expand into higher age groups and facilitate specialized kinds of learning.
-4. Create a public API, with which admins can authorize 3rd parties to integrate with user story
-   worlds. This will enable virtual reality application to integrate with Crosshatch.
+4. Create a public API, with which admins can securely authorize 3rd parties to integrate with user
+   story worlds. This will enable virtual reality application to integrate with Crosshatch.
 
 ### Competitive Advantages
 
@@ -119,18 +119,18 @@ revenue.
 
 Crosshatch is currently built by a single contributor and does not require funding. However, there
 will come a time when it is necessary to hire employees, retain legal council and pay for security
-audits and advertising, among many other expenses. When this time comes, the business can
-participate in programs designed to support innovation in the EdTech sector. One such example is
-**Small Business Innovation Research (SBIR)**; this program consists of several federal agencies
-(including the Department of Education and the National Science Foundation) which offer funding to
-EdTech innovators.
+audits and advertising, among other expenses. When this time comes, the business can participate in
+programs designed to support innovation in the EdTech sector. One such example is **Small Business
+Innovation Research (SBIR)**; this program consists of several federal agencies (including the
+Department of Education and the National Science Foundation) which offer funding to EdTech
+innovators.
 
 ### Addressing Regulatory and Ethical Concerns
 
 While the intended end consumer of Crosshatch is children, the immediate customer is parents and
-educators, who are equipped to discern how the end experience takes shape. Admin oversight is a core
-tenet of the platform; admins are responsible for approving generated content (and therefore
-removing any biases or undesirable content).
+educators, who are equipped to discern and implement how the end experience takes shape. Admin
+oversight is a core tenet of the platform; admins are responsible for approving generated content
+(and therefore removing any biases or undesirable content).
 
 Crosshatch complies with child data privacy regulations (e.g., COPPA, GDPR) and has undergone
 numerous security audits.
