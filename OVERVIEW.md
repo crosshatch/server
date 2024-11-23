@@ -65,12 +65,11 @@ for children and track progress. Every generation incurs token usage, which dire
 revenue.
 
 An additional avenue to be explored is the creation of a content marketplace where authors and
-illustrators could whitelist their creations for training purposes. Users could then pay for
-licenses of the styles of those content creators. This kind of revenue-sharing is likely in the
-long-term, yet tenuous in the near-term, as creative industries resist the onslaught of a creative
-paradigm shift. This common good use case––child development models––may help us to overcome the
-creative community's defensiveness and establish an AI licensing platform (initially scoped to
-children's books).
+illustrators whitelist their creations for training purposes. Users would then pay for licenses of
+the styles of those content creators. This approach to revenue-sharing is likely in the long-term,
+yet tenuous in the near-term, as creative industries resist the onslaught of generative AI. However,
+it is possible that Crosshatch would be one of the first to overcome this barrier given the use case
+(child development models) is an essential common good.
 
 ## Strategy
 
