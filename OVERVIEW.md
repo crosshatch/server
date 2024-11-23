@@ -3,7 +3,7 @@
 > Personalized, Interactive Stories for Every Child's Journey.
 
 Crosshatch is a tool for parents and educators to create engaging, adaptive stories that enrich
-education experiences and foster personal growth.
+educational experiences and foster personal growth.
 
 ## Preface
 
@@ -13,9 +13,8 @@ stories fail to address each child's unique needs, limiting their developmental 
 ## Problem Statement
 
 1. Parents and educators struggle to find or create stories tailored to children's developmental
-   needs, missing opportunities to integrate curriculum topics, engaging themes, and guided support
-   through key stages of growth. This leaves children vulnerable to low-value media, which can crowd
-   out meaningful, educational experiences.
+   needs. This presents a lost opportunity to integrate curriculum topics, engaging themes, and
+   guided support through key stages of growth. Children are left vulnerable to low-value media.
 2. Storytelling devices lack mechanisms for measuring their impact on and adapting to the reader.
    Without this feedback loop, parents and educators are left in the dark, unable to assess how
    effectively stories resonate with kids or support developmental goals. This makes it difficult to
