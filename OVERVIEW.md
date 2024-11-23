@@ -96,10 +96,11 @@ will come a point when it is necessary to higher employees, retain legal council
 security audits and advertising, among many other expenses. When this time comes, the business can
 participate in programs designed to support innovation in the EdTech sector.
 
--. **Small Business Innovation Research (SBIR)** consists of several federal agencies (including the
-Department of Education and the National Science Foundation) which offer funding to EdTech
-innovators. -. **America COMPETES Act** aims to enhance U.S. competitiveness through investments in
-science and technology.
+- **Small Business Innovation Research (SBIR)** consists of several federal agencies (including the
+  Department
+- of Education and the National Science Foundation) which offer funding to EdTech innovators. -.
+  **America COMPETES Act** aims to enhance U.S. competitiveness through investments in science and
+  technology.
 
 ### Competitive Advantages
 
