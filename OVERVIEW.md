@@ -110,6 +110,8 @@ participate in programs designed to support innovation in the EdTech sector.
   time.
 - **Curriculum Alignment:** Stories can be customized to meet national and regional curriculum
   standards, making integration into diverse educational settings seamless.
+- **Admin Oversight:** Parents and educators participate in the process of defining the trajectory
+  of the story.
 - **Unmatched Quality Through Fine-Tuning:** With just a few days of usage, Crosshatch fine-tunes
   its models to deliver highly-personalized stories (lessons) that far surpass generic alternatives.
   Over time, this compounding effect creates a personalized planner so effective that it is
