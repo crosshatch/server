@@ -31,8 +31,8 @@ teacher might create a story where students embark on a vivid adventure through 
 solving math equations to advance the quest. This approach to teaching extends beyond just the
 classroom. For example, a parent might create a bedtime story to help their child cope with the
 emotional challenges of having a new sibling, reframing the experience positively and highlighting
-the long-term joys of family. By fostering a strong connection to the story and its characters,
-readers are more likely to internalize the intended messages.
+the long-term joys of family. In both cases, the admin helps the child internalize the intended
+message by fostering a strong connection to the story and its characters.
 
 Crosshatch also provides real-time insights, allowing admins to track progress in areas like reading
 comprehension, problem-solving and emotional health. This uniquely positions Crosshatch to meet the
