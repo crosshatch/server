@@ -35,9 +35,8 @@ the long-term joys of family. In both cases, the admin helps the child internali
 message by fostering a strong connection to the story and its characters.
 
 Crosshatch also provides real-time insights, allowing admins to track progress in areas like reading
-comprehension, problem-solving and emotional health. This uniquely positions Crosshatch to meet the
-growing demand for meaningful educational content that engages children while empowering parents and
-educators.
+comprehension, problem-solving and emotional health. Crosshatch meets the growing demand for
+educational content that engages children while empowering parents and educators.
 
 ## Market
 
