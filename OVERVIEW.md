@@ -7,7 +7,7 @@ education experiences and foster personal growth.
 
 ## Preface
 
-Stories ignite curiosity and growth, helping children export passions and the world. Yet, many
+Stories ignite curiosity and growth, helping children explore passions and the world. Yet, many
 stories fail to address each child's unique needs, limiting their developmental potential.
 
 ## Problem Statement
@@ -15,7 +15,7 @@ stories fail to address each child's unique needs, limiting their developmental 
 1. Parents and educators struggle to find or create stories tailored to children's developmental
    needs, missing opportunities to integrate curriculum topics, engaging themes, and guided support
    through key stages of growth. This leaves children vulnerable to low-value media, which can crowd
-   out meaningful, educational experiences that spark curiosity and growth.
+   out meaningful, educational experiences.
 2. Storytelling devices lack mechanisms for measuring their impact on and adapting to the reader.
    Without this feedback loop, parents and educators are left in the dark, unable to assess how
    effectively stories resonate with kids or support developmental goals. This makes it difficult to
@@ -28,12 +28,11 @@ Admins, such as parents and teachers, define the context for story generation, i
 subject, theme, or lesson plan. Admins can also enable the generation of interactive passages, which
 can engage readers with quizzes, character dialogues and other elements. For instance, a math
 teacher might create a story where students embark on a vivid adventure through Middle Earth,
-solving math equations to advance the quest. This same approach can be applied to both
-non-interactive modes and to other environments, such as that of home; a parent, for example, could
-generate a bedtime story to help their child cope with the emotional challenges of having a new
-sibling, reframing the experience positively and highlighting the long-term joys of family. By
-fostering a strong connection to the story and its characters, readers are more likely to
-internalize the intended messages.
+solving math equations to advance the quest. This approach to teaching extends beyond just the
+classroom. For example, a parent might create a bedtime story to help their child cope with the
+emotional challenges of having a new sibling, reframing the experience positively and highlighting
+the long-term joys of family. By fostering a strong connection to the story and its characters,
+readers are more likely to internalize the intended messages.
 
 Crosshatch also provides real-time insights, allowing admins to track progress in areas like reading
 comprehension, problem-solving and emotional health. This uniquely positions Crosshatch to meet the
