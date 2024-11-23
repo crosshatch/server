@@ -57,8 +57,9 @@ Other key metrics:
 - As of 2022, there were 23.2 million families in the US with children under 12 years of age.[^3]
 - Parents spend an average of $586 per child annually on educational tools.[^4]
 
-Market data suggests that parents increasingly seek screen time with purpose, preferring apps that
-provide educational value and foster creativity. Crosshatch addresses this growing demand.
+Additional market data suggests that parents increasingly seek screen time with purpose, preferring
+apps that provide educational value and foster creativity.[^5] Crosshatch addresses this growing
+demand.
 
 ## Revenue Model
 
@@ -107,8 +108,12 @@ revenue.
 - **Unmatched Quality Through Fine-Tuning:** Within just a few sessions, Crosshatch fine-tunes
   child-specific models to deliver highly-personalized stories that far surpass generic
   alternatives. This effect compounds over time.
-- **AI-Driven Adaptability:** Built from the ground up with AI, Crosshatch dynamically evolves to
-  meet changing learning goals and preferences, ensuring long-term relevance and engagement.
+- **AI-Driven Adaptability:** Built from the ground up with AI, Crosshatch dynamically adapts to
+  evolving learning goals and preferences, ensuring sustained relevance and engagement. This
+  approach contrasts sharply with current incumbents like [Lingokids](https://lingokids.com), which
+  rely on manually crafted experiences. As AI-driven methodologies advance, the limitations of these
+  handcrafted approaches will become increasingly apparent––much like how manual link aggregation
+  platforms were ultimately outclassed by modern search engines powered by algorithmic page ranking.
 
 ### Funding Strategy
 
@@ -150,3 +155,5 @@ shape the future with confidence and purpose.
 [^3]: [Childstats](https://www.childstats.gov/americaschildren/demo.asp?utm_source=chatgpt.com)
 
 [^4]: [Deloitte Insights](https://www2.deloitte.com/us/en/insights/industry/retail-distribution/back-to-school-survey.html)
+
+[^5]: [NY Post Article](https://nypost.com/2024/05/21/shopping/modern-parents-are-turning-to-lingokids-play-learning-app)
