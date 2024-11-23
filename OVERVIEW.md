@@ -40,9 +40,9 @@ educational content that engages children while empowering parents and educators
 
 ## Market
 
-Crosshatch taps into the U.S.' $5 billion market for education technology. Meanwhile, the global
-children's app market is projected to grow to $14.6 billion by 2026. This growth rate outpaces the
-overall app market, reflecting rising demand for specialized educational solutions.
+Crosshatch taps into the U.S.' $5 billion EdTech market. Meanwhile, the global children's app market
+is projected to grow to $14.6 billion by 2026. This growth rate outpaces the overall app market,
+reflecting rising demand for specialized educational solutions.
 
 Other key metrics:
 
@@ -119,10 +119,10 @@ science and technology.
 ## Conclusion
 
 Crosshatch sits at the intersection of four rapidly expanding markets: personalized entertainment,
-education technology, creative tools and artificial intelligence. By addressing key pain points with
-a tailored solution, Crosshatch is poised to capture a loyal user base, drive sustainable revenue,
-and expand into emerging markets like AR/VR and next-generation AI, which will transform how we
-model and refine human cognition.
+EdTech, creative tools and artificial intelligence. By addressing key pain points with a tailored
+solution, Crosshatch is poised to capture a loyal user base, drive sustainable revenue, and expand
+into emerging markets like AR/VR and next-generation AI, which will transform how we model and
+refine human cognition.
 
 As we move towards this future, Crosshatch will empower families and educators to harness the
 transformative power of storytelling to unlock curiosity, creativity, and growth. By bridging
