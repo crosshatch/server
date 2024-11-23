@@ -41,8 +41,8 @@ dialogues and other elements.
 In both cases, **the admin helps the child internalize the intended message by fostering a strong
 connection to the story and its characters.**
 
-Crosshatch also provides insights, allowing admins to track key metrics relating to progress in
-areas like reading comprehension and problem-solving. Crosshatch meets the growing demand for
+Crosshatch also provides usage insights, allowing admins to track key metrics relating to progress
+in areas like reading comprehension and problem-solving. Crosshatch meets the growing demand for
 educational content that engages children while empowering parents and educators.
 
 ## Market
@@ -149,5 +149,4 @@ shape the future with confidence and purpose.
 
 [^3]: [Childstats](https://www.childstats.gov/americaschildren/demo.asp?utm_source=chatgpt.com)
 
-[^4]
-[Deloitte Insights](https://www2.deloitte.com/us/en/insights/industry/retail-distribution/back-to-school-survey.html)
+[^4]: [Deloitte Insights](https://www2.deloitte.com/us/en/insights/industry/retail-distribution/back-to-school-survey.html)
