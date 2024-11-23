@@ -25,20 +25,21 @@ stories fail to address each child's unique needs, limiting their developmental 
 
 ## Solution
 
-Admins, such as parents and teachers, define the context for story generation, including style,
-subject, theme, or lesson plan. Admins can also enable the generation of interactive passages, which
-can engage readers with quizzes, character dialogues and other elements. For instance, a math
-teacher might create a story where students embark on a vivid adventure through Middle Earth,
-solving math equations to advance the quest. This approach to teaching extends beyond just the
-classroom. For example, a parent might create a bedtime story to help their child cope with the
-emotional challenges of having a new sibling, reframing the experience positively and highlighting
-the long-term joys of family. In both cases, the admin helps the child internalize the intended
-message by fostering a strong connection to the story and its characters.
+Admins, such as parents and teachers, visit crosshatch.land and input context for story generation.
+This context can include the desired style of writing and illustrations, story subject matter,
+morals and themes, and even uploaded documents and lesson plans. Admins can also enable the
+interactivity, which can engage readers with quizzes, story-outcome-bearing prompts, character
+dialogues and other elements.
 
-Crosshatch also provides real-time insights, allowing admins to track key metrics relating to
-progress in areas like reading comprehension, problem-solving and emotional health. Crosshatch meets
-the growing demand for educational content that engages children while empowering parents and
-educators.
+A math teacher might create a story where students embark on a vivid adventure through Middle Earth,
+solving math equations to advance the quest. A parent might create a story to help their child cope
+with the emotional challenges of having a new sibling; the generated story could reframe the
+experience positively and highlight the joys of family. In both cases, **the admin helps the child
+internalize the intended message by fostering a strong connection to the story and its characters.**
+
+Crosshatch also provides insights, allowing admins to track key metrics relating to progress in
+areas like reading comprehension and problem-solving. Crosshatch meets the growing demand for
+educational content that engages children while empowering parents and educators.
 
 ## Market
 
