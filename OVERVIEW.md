@@ -101,6 +101,7 @@ participate in programs designed to support innovation in the EdTech sector.
   innovators.
 - **America COMPETES Act** aims to enhance U.S. competitiveness through investments in science and
   technology.
+- **Private funding** such as an initial friends and family round may offer better terms.
 
 ### Competitive Advantages
 
