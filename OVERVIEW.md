@@ -7,8 +7,9 @@ educational experiences and foster personal growth.
 
 ## Preface
 
-Stories ignite curiosity and growth, helping children explore passions and the world. Yet, many
-stories fail to address each child's unique needs, limiting their developmental potential.
+Stories ignite curiosity and help children explore passions and new worlds, both real and
+fantastical. Yet, many stories fail to address each child's unique needs, limiting their
+developmental potential.
 
 ## Problem Statement
 
