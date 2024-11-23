@@ -40,15 +40,15 @@ educational content that engages children while empowering parents and educators
 
 ## Market
 
-Crosshatch taps into the U.S.' $5 billion EdTech market. Meanwhile, the global children's app market
-is projected to grow to $14.6 billion by 2026. This growth rate outpaces the overall app market,
-reflecting rising demand for specialized educational solutions.
+The US education technology (EdTech) market has experienced significant growth in recent years. In
+2023, the market was valued at approximately $42.34 billion and is projected to reach $90.61 billion
+by 2030, growing at a compound annual growth rate (CAGR) of 11.5% from 2024 to 2030.[^1]
 
 Other key metrics:
 
-- There are 1.9 billion children globally under 15 years of age.
-- There are 33 million families in the U.S. with children under 12 years of age.
-- Parents spend an average of $1,000 per child annually on educational tools.
+- There are 1.8 billion children globally under 15 years of age.[^2]
+- As of 2022, there were 23.2 million families in the US with children under 12 years of age.[^3]
+- Parents spend an average of $586 per child annually on educational tools.[^4]
 
 Market data suggests that parents increasingly seek screen time with purpose, preferring apps that
 provide educational value and foster creativity. Crosshatch addresses this growing demand.
@@ -112,10 +112,9 @@ participate in programs designed to support innovation in the EdTech sector.
   standards, making integration into diverse educational settings seamless.
 - **Admin Oversight:** Parents and educators participate in the process of defining the trajectory
   of the story.
-- **Unmatched Quality Through Fine-Tuning:** With just a few days of usage, Crosshatch fine-tunes
-  its models to deliver highly-personalized stories (lessons) that far surpass generic alternatives.
-  Over time, this compounding effect creates a personalized planner so effective that it is
-  indispensable.
+- **Unmatched Quality Through Fine-Tuning:** Within just a few sessions, Crosshatch fine-tunes
+  child-specific models to deliver highly-personalized stories that far surpass generic
+  alternatives. This effect compounds over time.
 - **AI-Driven Adaptability:** Built from the ground up with AI, Crosshatch dynamically evolves to
   meet changing learning goals and preferences, ensuring long-term relevance and engagement.
 
@@ -131,3 +130,12 @@ As we move towards this future, Crosshatch will empower families and educators t
 transformative power of storytelling to unlock curiosity, creativity, and growth. By bridging
 education and imagination, Crosshatch equips the next generation with the skills and mindset to
 shape the future with confidence and purpose.
+
+[^1]: https://www.grandviewresearch.com/horizon/outlook/education-technology-market/united-states?utm_source=chatgpt.com
+
+[^3]: [Worldometers](https://www.worldometers.info/world-population)
+
+[^3]: [Childstats](https://www.childstats.gov/americaschildren/demo.asp?utm_source=chatgpt.com)
+
+[^4]
+[Deloitte Insights](https://www2.deloitte.com/us/en/insights/industry/retail-distribution/back-to-school-survey.html)
