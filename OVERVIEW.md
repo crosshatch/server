@@ -50,9 +50,8 @@ Other key metrics:
 - There are 33 million families in the U.S. with children under 12 years of age.
 - Parents spend an average of $1,000 per child annually on educational tools.
 
-TODO Parents increasingly seek "screen time with purpose," preferring apps that provide educational
-value and foster creativity. Crosshatch addresses this growing demand for meaningful educational
-content and creative engagement.
+Market data suggests that parents increasingly seek screen time with purpose, preferring apps that
+provide educational value and foster creativity. Crosshatch addresses this growing demand.
 
 ## Revenue Model
 
