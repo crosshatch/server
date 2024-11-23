@@ -1,6 +1,6 @@
 # Crosshatch
 
-> Personalized, Interactive Stories for Every Child's Journey.
+> Personalized Stories for Every Child's Journey.
 
 Crosshatch is a tool for parents and educators to create engaging, adaptive stories that enrich
 educational experiences and foster personal growth.
