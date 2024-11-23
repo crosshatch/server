@@ -68,7 +68,7 @@ revenue.
 
 ## Strategy
 
-### Product Strategy
+### Go-to-Market Strategy
 
 1. Conduct a pilot program with a select group of parents, the children of which are between the
    ages of 5 and 7.
@@ -77,20 +77,17 @@ revenue.
 4. Add educational tools that enable educators to align story generation with curriculum standards.
 5. Add basic interactivity to enable the interspersing of creative exercises, homework, examinations
    and side-quests.
-6. Allow generated knowledge and rules to transfer across story boundaries, enabling richer,
+6. Work with educational organizations to progressively refine the experience for both teachers and
+   students. Deeply integrate Crosshatch into the classroom setting.
+
+### Expanding Product Definition
+
+1. Allow generated knowledge and rules to transfer across story boundaries, enabling richer,
    interconnected narratives.
-7. Enable connections between users' story worlds. Focus on fostering collaboration.
-8. Expand into higher age groups and facilitate specialized kinds of learning.
-
-### Funding Strategy
-
-Crosshatch is currently built by a single contributor and does not require funding. However, there
-will come a time when it is necessary to hire employees, retain legal council and pay for security
-audits and advertising, among many other expenses. When this time comes, the business can
-participate in programs designed to support innovation in the EdTech sector. One such example is
-**Small Business Innovation Research (SBIR)**; this program consists of several federal agencies
-(including the Department of Education and the National Science Foundation) which offer funding to
-EdTech innovators.
+2. Enable connections between users' story worlds. Focus on fostering collaboration.
+3. Expand into higher age groups and facilitate specialized kinds of learning.
+4. Create a public API, with which admins can authorize 3rd parties to integrate with user story
+   worlds. This will enable virtual reality application to integrate with Crosshatch.
 
 ### Competitive Advantages
 
@@ -106,6 +103,26 @@ EdTech innovators.
   alternatives. This effect compounds over time.
 - **AI-Driven Adaptability:** Built from the ground up with AI, Crosshatch dynamically evolves to
   meet changing learning goals and preferences, ensuring long-term relevance and engagement.
+
+### Funding Strategy
+
+Crosshatch is currently built by a single contributor and does not require funding. However, there
+will come a time when it is necessary to hire employees, retain legal council and pay for security
+audits and advertising, among many other expenses. When this time comes, the business can
+participate in programs designed to support innovation in the EdTech sector. One such example is
+**Small Business Innovation Research (SBIR)**; this program consists of several federal agencies
+(including the Department of Education and the National Science Foundation) which offer funding to
+EdTech innovators.
+
+### Addressing Regulatory and Ethical Concerns
+
+While the intended end consumer of Crosshatch is children, the immediate customer is parents and
+educators, who are equipped to discern how the end experience takes shape. Admin oversight is a core
+tenet of the platform; admins are responsible for approving generated content (and therefore
+removing any biases or undesirable content).
+
+Crosshatch complies with child data privacy regulations (e.g., COPPA, GDPR) and has undergone
+numerous security audits.
 
 ## Conclusion
 
