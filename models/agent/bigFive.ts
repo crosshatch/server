@@ -1,4 +1,4 @@
-import { T } from "structured_outputs"
+import { T } from "structured-outputs"
 
 const range = T.number`A number ranging from 0 to 100`
 

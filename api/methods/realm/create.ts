@@ -1,6 +1,6 @@
 import { Selectable } from "kysely"
 import { Realms } from "schema"
-import { T } from "structured_outputs"
+import { ResponseFormat, T } from "structured-outputs"
 import { Context } from "../../Context.ts"
 
 export interface CreateRealmArgs {
@@ -26,11 +26,7 @@ export async function create(
   }).then(story.parseFirstOrThrow)
   const story_ = await ctx.db
     .insertInto("realms")
-    .values({
-      title,
-      cover: "https://avatars.githubusercontent.com/u/4893548",
-      authority_id: "",
-    })
+    .values({ title, description: "" })
     .returningAll()
     .executeTakeFirstOrThrow()
   // await ctx.db
@@ -44,7 +40,7 @@ function createStorySystemInstruction({ stage }: CreateRealmArgs): string {
   return `You are a writer of whimsical children's stories. Outline a story about ${stage}.`
 }
 
-const story = T.format(
+const story = ResponseFormat(
   "Something",
   T.object({
     title: T.string`The title of the story.`,

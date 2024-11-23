@@ -22,20 +22,24 @@
     "npm:@aws-sdk/client-s3@^3.698.0": "3.698.0_@aws-sdk+client-sts@3.696.0__@aws-sdk+client-sso-oidc@3.696.0___@aws-sdk+client-sts@3.696.0_@aws-sdk+client-sso-oidc@3.696.0__@aws-sdk+client-sts@3.696.0___@aws-sdk+client-sso-oidc@3.696.0____@aws-sdk+client-sts@3.696.0__@aws-sdk+client-sts@3.696.0___@aws-sdk+client-sso-oidc@3.696.0____@aws-sdk+client-sts@3.696.0_____@aws-sdk+client-sso-oidc@3.696.0___@aws-sdk+client-sso-oidc@3.696.0",
     "npm:@aws-sdk/client-sesv2@^3.696.0": "3.696.0_@aws-sdk+client-sts@3.696.0__@aws-sdk+client-sso-oidc@3.696.0___@aws-sdk+client-sts@3.696.0_@aws-sdk+client-sso-oidc@3.696.0__@aws-sdk+client-sts@3.696.0___@aws-sdk+client-sso-oidc@3.696.0____@aws-sdk+client-sts@3.696.0__@aws-sdk+client-sts@3.696.0___@aws-sdk+client-sso-oidc@3.696.0____@aws-sdk+client-sts@3.696.0_____@aws-sdk+client-sso-oidc@3.696.0___@aws-sdk+client-sso-oidc@3.696.0",
     "npm:@faker-js/faker@^9.2.0": "9.2.0",
+    "npm:@types/node@*": "22.5.4",
     "npm:dedent@^1.5.3": "1.5.3",
     "npm:kysely-codegen@*": "0.17.0_kysely@0.27.4_pg@8.13.1",
     "npm:kysely@0.27.4": "0.27.4",
     "npm:kysely@~0.27.4": "0.27.4",
     "npm:openai@^4.73.0": "4.73.0",
     "npm:pg@^8.13.1": "8.13.1",
+    "npm:postgres@3.4.4": "3.4.4",
     "npm:postgres@^3.4.5": "3.4.5",
-    "npm:sql-formatter@^15.4.6": "15.4.6"
+    "npm:sql-formatter@^15.4.6": "15.4.6",
+    "npm:structured-outputs@~0.1.0-beta.19": "0.1.0-beta.19"
   },
   "jsr": {
     "@byzanteam/kysely-deno-postgres-dialect@0.27.8": {
       "integrity": "4f3563aaca5283cd46c843e6fd92500c87bb8e44d1c1152e1f29d15720c2aba3",
       "dependencies": [
-        "npm:kysely@0.27.4"
+        "npm:kysely@0.27.4",
+        "npm:postgres@3.4.4"
       ]
     },
     "@std/assert@1.0.8": {
@@ -3341,6 +3345,9 @@
         "xtend"
       ]
     },
+    "postgres@3.4.4": {
+      "integrity": "sha512-IbyN+9KslkqcXa8AO9fxpk97PA4pzewvpi2B3Dwy9u4zpV32QicaEdgmF3eSQUzdRk7ttDHQejNgAEr4XoeH4A=="
+    },
     "postgres@3.4.5": {
       "integrity": "sha512-cDWgoah1Gez9rN3H4165peY9qfpEo+SA61oQv65O3cRUE1pOEoJWwddwcqKE8XZYjbblOJlYDlLV4h67HrEVDg=="
     },
@@ -3395,6 +3402,13 @@
     },
     "strnum@1.0.5": {
       "integrity": "sha512-J8bbNyKKXl5qYcR36TIO8W3mVGVHrmmxsd5PAItGkmyzwJvybiw2IVq5nqd0i4LSNSkB/sx9VHllbfFdr9k1JA=="
+    },
+    "structured-outputs@0.1.0-beta.19": {
+      "integrity": "sha512-mIGNjgjAf1Levys0WndNQtNNgoFQ/cOgp5U3Wc/zGi5CZxgd6YNSBs+uyVUGxd4jSMAUvRjnXhq/B6Rktb24yw==",
+      "dependencies": [
+        "openai",
+        "tslib"
+      ]
     },
     "supports-color@5.5.0": {
       "integrity": "sha512-QjVjwdXIt408MIiAqCX4oUKsgU2EqAGzs2Ppkm4aQYbjm+ZEWEcW4SfFNTr4uMNZma0ey4f5lgLrkB0aX0QMow==",
@@ -3471,7 +3485,8 @@
       "npm:openai@^4.73.0",
       "npm:pg@^8.13.1",
       "npm:postgres@^3.4.5",
-      "npm:sql-formatter@^15.4.6"
+      "npm:sql-formatter@^15.4.6",
+      "npm:structured-outputs@~0.1.0-beta.19"
     ]
   }
 }

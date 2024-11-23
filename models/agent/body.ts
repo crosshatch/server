@@ -1,4 +1,4 @@
-import { T } from "structured_outputs"
+import { T } from "structured-outputs"
 
 export const body = T.object({
   hairColor: T.string,

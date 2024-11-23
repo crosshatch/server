@@ -1,13 +1,13 @@
 import { Context, loadEnv } from "api"
 import "@std/dotenv/load"
 import { character } from "models"
-import { T } from "structured_outputs"
+import { ResponseFormat, T } from "structured-outputs"
 
 const ctx = new Context(await loadEnv())
 
-export const response_format = T.format(
+export const response_format = ResponseFormat(
   "gen_chars",
-  T.wrapper(T.array(character)`List of characters.`),
+  T.Wrapper(T.array(character)`List of characters.`),
 )`Create the characters of a children's story.`
 
 console.log(response_format)

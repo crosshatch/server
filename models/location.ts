@@ -1,4 +1,4 @@
-import { T } from "structured_outputs"
+import { T } from "structured-outputs"
 
 export const location = T.object({
   name: T.string,
