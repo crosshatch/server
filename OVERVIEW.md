@@ -28,15 +28,18 @@ developmental potential.
 
 Admins, such as parents and teachers, visit crosshatch.land and input context for story generation.
 This context can include the desired style of writing and illustrations, story subject matter,
-morals and themes, and even uploaded documents and lesson plans. Admins can also enable the
-interactivity, which can engage readers with quizzes, story-outcome-bearing prompts, character
+morals and themes, and even uploaded documents and lesson plans. Admins can also enable modes of
+interactivity, which can engage readers with quizzes, outcome-bearing choice prompts, character
 dialogues and other elements.
 
-A math teacher might create a story where students embark on a vivid adventure through Middle Earth,
-solving math equations to advance the quest. A parent might create a story to help their child cope
-with the emotional challenges of having a new sibling; the generated story could reframe the
-experience positively and highlight the joys of family. In both cases, **the admin helps the child
-internalize the intended message by fostering a strong connection to the story and its characters.**
+- A math teacher might create a story where students embark on a vivid adventure through Middle
+  Earth, solving math equations to advance the quest.
+- A parent might create a story to help their child cope with the emotional challenges of having a
+  new sibling; the generated story could reframe the experience positively and highlight the joys of
+  family.
+
+In both cases, **the admin helps the child internalize the intended message by fostering a strong
+connection to the story and its characters.**
 
 Crosshatch also provides insights, allowing admins to track key metrics relating to progress in
 areas like reading comprehension and problem-solving. Crosshatch meets the growing demand for
