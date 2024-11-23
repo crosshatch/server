@@ -43,7 +43,7 @@ connection to the story and its characters.**
 
 Crosshatch also provides usage insights, allowing admins to track key metrics relating to progress
 in areas like reading comprehension and problem-solving. Crosshatch meets the growing demand for
-**educational content that engages children while empowering parents and educators to decide how**.
+**educational content that engages children while empowering parents and educators**.
 
 ## Market
 
