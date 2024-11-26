@@ -19,6 +19,6 @@ const response = await ctx.oai.chat.completions.create({
     content: "Generate a story for me.",
   }],
   response_format,
-}).then(response_format.parseFirstOrThrow)
+}).then(response_format.into)
 
 console.log(response)

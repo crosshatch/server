@@ -15,15 +15,18 @@ export async function create(
 ): Promise<Selectable<Realms>> {
   const { title } = await ctx.oai.chat.completions.create({
     model: "gpt-4o-mini",
-    messages: [{
-      role: "system",
-      content: [{
-        type: "text",
-        text: createStorySystemInstruction(args),
-      }],
-    }],
+    messages: [
+      {
+        role: "system",
+        content: [{
+          type: "text",
+          text:
+            `You are a writer of whimsical children's stories. Outline a story about ${args.stage}.`,
+        }],
+      },
+    ],
     response_format: story,
-  }).then(story.parseFirstOrThrow)
+  }).then(story.into)
   const story_ = await ctx.db
     .insertInto("realms")
     .values({ title, description: "" })
@@ -34,10 +37,6 @@ export async function create(
   //   .values(items.map((item) => ({ ...item, story_id: story.story_id })))
   //   .execute()
   return story_
-}
-
-function createStorySystemInstruction({ stage }: CreateRealmArgs): string {
-  return `You are a writer of whimsical children's stories. Outline a story about ${stage}.`
 }
 
 const story = ResponseFormat(

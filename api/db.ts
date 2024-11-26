@@ -1,6 +1,6 @@
 import { PostgresJSDialect } from "@byzanteam/kysely-deno-postgres-dialect"
 import { Kysely } from "kysely"
-import postgres from "postgres"
+import postgres from "pg"
 import { DB } from "schema"
 
 export function db(connection: string) {
